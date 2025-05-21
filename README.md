@@ -1,4 +1,4 @@
-# 💥 SEKANS: KOBİ'ler Arası Finansal İflas Tahmini ve Bulaşma Simülasyonu
+# SEKANS: KOBİ'ler Arası Finansal İflas Tahmini ve Bulaşma Simülasyonu
 
 ![](images/resim.png)
 
@@ -13,7 +13,7 @@ KOBİ’ler arasındaki alacak-borç ilişkilerinden oluşan finansal ağ yapıs
 
 ---
 
-## 📊 Temel Özellikler
+## Temel Özellikler
 
 - 🔎 KOBİ bazlı finansal verilerle çalışan **iki aşamalı iflas tahmini modeli**
 - 📊 **Ağ ölçümleri** (PageRank, Betweenness, Kırılganlık Skoru vb.)
@@ -22,7 +22,7 @@ KOBİ’ler arasındaki alacak-borç ilişkilerinden oluşan finansal ağ yapıs
 
 ---
 
-## 🧪 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - Python: Pandas, NumPy, Matplotlib, Seaborn,Sklearn
 - NetworkX (ağ analizi)
