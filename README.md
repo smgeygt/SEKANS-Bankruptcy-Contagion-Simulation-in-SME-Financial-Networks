@@ -1,38 +1,30 @@
-# SEKANS-Bankruptcy-Contagion-Simulation-in-SME-Financial-Networks
+# 💥 SEKANS: KOBİ'ler Arası Finansal İflas Tahmini ve Bulaşma Simülasyonu
+
 ![](images/resim.png)
+
+**SEKANS**, küçük ve orta ölçekli işletmelerin (KOBİ) iflas olasılıklarını tahmin eden ve finansal ilişkiler üzerinden bu iflasların ağda nasıl yayıldığını simüle eden bir analiz aracıdır.
+
+---
+
+## 📌 Proje Özeti
 
 KOBİ’ler arasındaki alacak-borç ilişkilerinden oluşan finansal ağ yapısını analiz ederek, olası iflasların sistem genelinde nasıl yayılabileceğini simüle ettiğimiz bu projede; finansal çöküş riskini erken tespit etmeye ve iflas zincirini öngörmeye yönelik bir model geliştirdik.
 
-In this project, we analyzed the financial network structure formed by credit-debt relationships among SMEs. By simulating how potential bankruptcies could spread throughout the system, we developed a model aimed at early detection of financial collapse risks and prediction of bankruptcy contagion.
-# 💥 SEKANS: Bankruptcy Prediction & Contagion Simulation in SME Financial Networks
-
-![Network Graph](images/resim.png)
-
-**SEKANS** is a financial network analysis tool that predicts bankruptcies among Small and Medium-Sized Enterprises (SMEs) and simulates the contagion of financial distress through their inter-company financial ties.
 
 ---
 
-## 📌 Overview
+## 📊 Temel Özellikler
 
-SEKANS models how financial shocks (e.g., bankruptcies) propagate across a network of SMEs connected by account receivables/payables. It combines:
-- **Bankruptcy prediction** via machine learning
-- **Graph-based metrics** to assess network fragility
-- **Contagion simulation** to observe failure cascades
-
----
-
-## 📊 Key Features
-
-- 🔍 **Two-step bankruptcy prediction** model using financial indicators and network features
-- 🌐 **Graph analysis** (PageRank, Betweenness, Fragility Index)
-- 💣 **Contagion simulation** using initial defaulted nodes and spread rules
-- 📈 Visualizations for contagion dynamics and network health
+- 🔎 KOBİ bazlı finansal verilerle çalışan **iki aşamalı iflas tahmini modeli**
+- 📊 **Ağ ölçümleri** (PageRank, Betweenness, Kırılganlık Skoru vb.)
+- 🌍 **İlk iflas eden firmalardan başlayan yayılma simülasyonu**
+- 📈 Görselleştirme desteği ile sonuçların daha iyi sunumu
 
 ---
 
-## 🧪 Technologies Used
+## 🧪 Kullanılan Teknolojiler
 
-- Python (Pandas, NumPy)
-- NetworkX, Matplotlib, Seaborn
+- Python: Pandas, NumPy, Matplotlib, Seaborn,Sklearn
+- NetworkX (ağ analizi)
 
 ---
